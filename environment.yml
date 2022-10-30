@@ -1,0 +1,15 @@
+name: spook-midlands
+channels:
+ - conda-forge
+ - defaults
+dependencies:
+ - python=3.8.11
+ - pip
+ - pip:
+   - dlib==19.24.0
+   - matplotlib==3.6.1
+   - numpy==1.23.2
+   - opencv_python_headless==4.5.5.62
+   - Pillow==9.3.0
+   - scipy==1.9.3
+   - streamlit==1.14.0
